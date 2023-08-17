@@ -61,7 +61,7 @@ saida_sum_total <- sum(df_teste2$valorliquido[df_teste2$tipo == "Despesa"])
 
 #6-cálculo do resultado líquido
 
-resultado_liquido <- entrada_sum_total - saida_sum
+resultado_liquido <- entrada_sum_total - saida_sum_total
 resultado_liquido
 
 
